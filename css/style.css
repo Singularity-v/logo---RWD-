@@ -1,0 +1,480 @@
+html{
+    width: 100%;
+    background-color: white;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+/* top */
+.card-img-overlay{
+    padding: 0 !important;
+}
+.card h5{
+    height: 11.7vw; 
+    text-align: left;
+    color:black;
+    font-weight:600;
+    font-size:5.625vw;
+}
+.top{   
+    width: 100vw;
+    height: 12.5vw; 
+    left: 0vw;
+    top: 0vw;
+    margin-bottom:2vw !important;
+}
+.card-img-overlay{
+    width:83vw;
+    margin-left:7.5vw; 
+}
+/* search */
+::placeholder { /*CSS 3 標準 */
+    color:#A34F2E;
+    font-size:1.3vw;
+    font-weight:bold;
+    font-family: 微軟正黑體;
+  }
+  
+  ::-webkit-input-placeholder { /*Chrome, Safari*/
+    color: #A34F2E;
+    font-size:1.3vw;
+    font-weight:bold;
+    font-family: 微軟正黑體;
+  } 
+  
+  :-ms-input-placeholder { /* IE 10+ */
+   color: #A34F2E;
+    font-size:1.3vw;
+    font-weight:bold;
+    font-family: 微軟正黑體;
+  }
+  
+  ::-moz-placeholder { /*Firefox 19+*/
+    color: #A34F2E;
+    font-size:1.3vw;
+    font-weight:bold;
+    font-family: 微軟正黑體;
+    opacity: 1;
+
+  }
+/* Style the search field */
+.example input[type=text] {
+    padding: 0.5vw;
+    padding-left: 0.8vw;
+    font-size:1.3vw;
+    float: left;
+    width:26vw;
+    border:none;
+    background:white;
+    border-radius: 0.4vw 0 0 0.4vw;
+  }
+  
+  /* Style the submit button */
+.example button {
+    float: left;
+    width: 5vw;
+    padding: 0.5vw;
+    background:white;
+    color:  #A34F2E;
+    font-size:1.3vw;
+    border:none;
+    cursor: pointer;
+    margin-right:1.57vw;
+    border-radius: 0 0.4vw 0.4vw 0;
+  }
+.example button:hover {
+    background:#f1f1f1;
+  }
+  
+  /* Clear floats */
+ .example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* record */
+.record{
+    width: 7vw;
+    height: 2.73vw;
+    background-color: #FFFFFF;
+    border-radius: 0.4vw;
+    margin-bottom: 0.78vw;
+    text-align:center;
+    margin-right:1.57vw;
+}
+.card .record p{
+    line-height:2.73vw ;
+    font-size:1.3vw;
+    font-family: 微軟正黑體;
+    color:#A34F2E;
+}
+/* 旁邊方格 */
+.row .login{
+    width: 5.5vw;
+    height: 2.73vw;
+
+    font-size:1.3vw;
+    font-weight: 600;
+    font-family: 微軟正黑體;
+    color:#FFFFFF;
+    background-color: #A34F2E;
+
+    line-height:2.73vw;
+    border-radius: 0.4vw;
+    margin-bottom: 0.78vw;
+    text-align:center;
+    margin-right:1.57vw;
+}
+.row .signin {
+    width: 5.5vw;
+    height: 2.73vw;
+
+    font-size:1.3vw;
+    font-weight: 600;
+    font-family: 微軟正黑體;
+    color:#A34F2E;
+    background-color:#FFFFFF;
+
+    line-height:2.73vw;
+    border-radius: 0.4vw;
+    margin-bottom: 0.78vw;
+    text-align:center;
+}
+@media (max-width:991px) {
+    .search{
+        margin-top: -2.5vw !important;
+    }
+    .record{
+        margin-top: -1vw !important;
+    }
+    .top_left{
+        margin-top: -5.5vw !important;
+    }
+} 
+@media (max-width:900px) {
+    .top{
+        width: 100vw;
+        height: auto; 
+        left: 0vw;
+        top: 0vw;
+        margin-bottom:2vw !important;
+    }
+    .card-img-overlay .row{
+        margin-top: 20vw;
+
+    }
+    .card-img-overlay{
+        width:83vw;
+        height:27vw;
+        margin-left:7.5vw;
+    }
+
+    /* logo */
+    .row h5{
+        order: 2;
+        text-align: center;
+        justify-content: center;
+        font-size:11.7vw;
+        margin-top:-1vw !important;
+    }
+
+/* search */
+    ::placeholder { /*CSS 3 標準 */
+        color:#A34F2E;
+        font-size:2.34vw;
+        font-weight:bold;
+        font-family: 微軟正黑體;
+    }
+    
+    ::-webkit-input-placeholder { /*Chrome, Safari*/
+        color: #A34F2E;
+        font-size:2.34vw;
+        font-weight:bold;
+        font-family: 微軟正黑體;
+    } 
+    
+    :-ms-input-placeholder { /* IE 10+ */
+        color: #A34F2E;
+        font-size:2.34vw;
+        font-weight:bold;
+        font-family: 微軟正黑體;
+    }
+    
+    ::-moz-placeholder { /*Firefox 19+*/
+        color: #A34F2E;
+        font-size:2.34vw;
+        font-weight:bold;
+        font-family: 微軟正黑體;
+        opacity: 1;
+
+    }
+    .search{
+        order: 3; 
+        margin-top: 3.5vw !important;
+    }
+    .example input[type=text]{
+        width:44.2vw;
+        height: 4.6vw;
+        font-size:2.34vw;
+    }
+    .example button{
+        width:8.5vw;
+        height: 4.6vw;
+        font-size:2.34vw;
+    }
+    .search{
+        margin-top: 0vw !important;
+    }
+    .top_left{
+        margin-top: 0vw !important;
+    }
+    /* record */
+    .record{
+        order: 3;
+        width: 11.7vw;
+        height: 4.6vw;
+
+    }
+    .card .record p{
+        line-height:4.6vw ;
+        font-size:3.125vw;
+    }
+
+    /* 旁邊的 */
+    .top_left{
+        order: 1;
+        
+    }
+    .top_left p{
+        margin-top: 2vw;
+    }
+    .row .login{
+        
+        width: 9.1vw;
+        height: 3.6vw;
+    
+        font-size:3.125vw;
+        font-weight: 600;
+        line-height:3.6vw;
+    }
+    .row .signin{
+        
+        width: 9.1vw;
+        height: 3.6vw;
+    
+        font-size:3.125vw;
+        font-weight: 600;
+        line-height:3.6vw;
+    }
+} 
+
+
+/* nav */
+.navbar-nav{
+    width: 83vw;
+    height: 4.7vw;
+    background-color: #A34F2E;
+    border-radius: 0.4vw;
+    
+    text-align:center;
+    justify-content:center;
+}
+.nav{
+    text-align:center;
+    justify-content:center; 
+}
+.navbar-nav p{
+    font-family: 微軟正黑體;
+    font-weight: 500;
+    font-size: 1.875vw;
+    line-height: 4.7vw;
+    margin-right:2.5vw;
+    margin-bottom: 0vw;
+    color:white;
+    text-align:center;
+}
+@media (max-width: 900px) {
+    .nav{
+        padding-right:3.5vw !important;
+        padding-left:3.5vw !important;
+    }
+    .navbar-nav{
+        width: 88.5vw;
+        height: 16.9vw;
+
+    }
+    .navbar-nav p{
+        font-size: 3.125vw;
+        line-height: 9.11vw;
+        margin-right:2vw;
+        margin-bottom: 0vw;
+
+    }
+} 
+@media (max-width: 400px) {
+    .navbar-nav{
+        width: 88.5vw;
+        height: 20.3vw;
+    }
+    .navbar-nav p{
+        font-size: 3.75vw;
+    }
+} 
+/* AD */
+.row{
+    width: 83vw;
+    height:auto;
+}
+.ad{
+    width:54vw;
+    height:36vw;
+}
+.row p{
+    font-family: 微軟正黑體;
+    font-weight: 500;
+    line-height: 3.125vw;
+    font-size: 1.875vw;
+    text-align:center;
+    color:white;
+}
+.one_top{
+    margin-bottom: 0.8vw;
+    background: #632816;
+    border-radius: 0.4vw;
+    height: 3.125vw; 
+}
+.card{
+    border:none !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card p{
+    font-family: 微軟正黑體;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.25vw;
+    text-align: center;
+    color: #A34F2E;
+    margin-bottom: 0.8vw;
+}
+.card img{
+    margin-bottom: 0.2vw;
+}
+/* AD-media */
+@media (max-width:991px) {
+    .ad{
+        text-align:center;
+        justify-content:center;
+        width:100%;
+        height:100%;
+    }
+    .one {
+        margin-top: 4vw !important;
+    }    
+    .one_top{
+        height:5.21vw;
+        margin-bottom: 4vw ;
+    }
+    .one_top p{
+        margin-bottom: 0vw !important;
+        line-height: 5.21vw;
+        font-size: 3.125vw;
+    }
+    .card p{
+        font-size: 2.343vw;
+        line-height: 3vw;
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+    }
+} 
+@media (max-width:900px) {
+    .row{
+        width:88.5vw;
+        height:auto;
+    }
+    .ad{
+        text-align:center;
+        justify-content:center;
+        width:100%;
+        height:100%;
+    }
+    .one {
+        margin-top: 4vw !important;
+    }
+    .one_top{
+        height:5.21vw;
+        margin-bottom: 4vw ;
+    }
+    .one_top p{
+        margin-bottom: 0vw !important;
+        font-size: 3.125vw;
+    }
+    .card p{
+        font-size: 2.343vw;
+        line-height: 3vw;
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+    }
+} 
+@media (max-width:767px) {
+    .card p{
+        font-size: 3vw;
+        line-height: 3.5vw;
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+    }
+} 
+@media (max-width:400px) {
+    .one_top{
+        height:6.25vw;
+        margin-bottom: 4vw ;
+    }
+    .one_top p{
+        font-size: 3.75vw;
+        line-height: 6.25vw;
+    }
+    .card p{
+        font-size: 3.75vw;
+        line-height: 4.5vw;
+        margin-top: 1.5vw;
+        margin-bottom: 3vw;
+    }
+} 
+
+/* footer */
+.footer{
+    width: 100vw;
+    height: 9.375vw;
+    background: #A34F2E;
+    margin-top:2vw;
+}
+.footer  p{
+    font-family: 微軟正黑體;
+    font-size: 1.25vw;
+    /* line-height: 0.003vw; */
+    color: #FFFFFF;
+}
+@media (max-width:900px) {
+    .footer{
+        height: 15.6vw;
+    }
+    .footer  p{
+        font-size: 1.82vw;
+    }
+} 
+@media (max-width:400px) {
+    .footer{
+        height: 18.75vw;
+    }
+    .footer  p{
+        font-size: 2.5vw;
+    }
+} 
